@@ -24,5 +24,10 @@ import numpy as np
 ttn1 = TropicalTorusNumber(np.array([1,2,3]))
 ttn2 = TropicalTorusNumber(np.array([2,3,5]))
 
+print(ttn1 == ttn2) # False
+
+ttn1 = TropicalTorusNumber(np.array([1,2,3]))
+ttn2 = TropicalTorusNumber(np.array([2,3,4]))
+
 print(ttn1 == ttn2) # True
 ```
