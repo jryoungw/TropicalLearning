@@ -31,7 +31,7 @@ class BaseTropicalClass(ABC):
         pass
 
 class TropicalNumber(BaseTropicalClass):
-    def __init__(self, arr:Any) -> None:
+    def __init__(self, arr: Any) -> None:
         super().__init__()
         self.arr = arr
 
@@ -72,7 +72,7 @@ class TropicalTorusNumber(TropicalNumber):
     def __init__(self, arr: Any) -> None:
         super().__init__(arr)
 
-    def __eq__(self, other):
+    def __eq__(self, other: Any):
         self._checkTN(other)
         if len(np.unique(self.arr - other.arr))==1:
             return True
