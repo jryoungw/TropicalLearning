@@ -13,7 +13,7 @@ import numpy as np
 tn1 = TropicalNumber(1)
 tn2 = TropicalNumber(3)
 
-print(tn1 + tn2, tn1 * tn2)
+print(tn1 + tn2, tn1 * tn2) # 3, 4
 ```
 
 ### Algebra on Tropical Projective Torus
