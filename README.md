@@ -7,7 +7,7 @@ Implementation of [Tropical Gradient Descent](https://arxiv.org/abs/2405.19551).
 ### Tropical Algebra
 
 ```
-from TropicalNumbers import TropicalNumber, TropicalTorusNumber
+from TropicalNumbers import TropicalNumber
 import numpy as np
 
 tn1 = TropicalNumber(1)
